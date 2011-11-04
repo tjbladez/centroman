@@ -26,8 +26,6 @@ if you already have a license you can just drop the code in impact default locat
 
 Art: Patrick Kretsch, Nickolay Schwarz
 
-Design, code: Nickolay Schwarz
-
 Acknowledgments:
 
 * Cuzco - based for explosion animation (CC0)
