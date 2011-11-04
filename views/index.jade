@@ -1,0 +1,84 @@
+script(type='text/javascript')
+  window.GameConfig = {
+    main: {
+      idealFps: 60,
+      width: 720,
+      height: 720,
+      scaleRatio: 1,
+      menuLeft: 'player2left',
+      menuRight: 'player2right'
+    },
+    map: {
+      tileSize: 48,
+      reducedTileSize: 44,
+      reducedOffset: 1,
+      tileCount: {
+        width: 15, // convenience: GameConfig.main.width / GameConfig.map.tileSize
+        height: 15 // convenience: GameConfig.main.height / GameConfig.map.tileSize
+      }
+    },
+    players: [
+      {
+        name: 'player1',
+        startX: 48,
+        startY: 48,
+        up: 87,    //keyCode: ig.KEY.W
+        down: 83,  //keyCode: ig.KEY.S
+        left: 65,  //keyCode: ig.KEY.A
+        right: 68, //keyCode: ig.KEY.D
+        bomb: 9,   //keyCode: ig.KEY.TAB
+        facing: 'right',
+        hudX: 10,
+        hudY: 5
+      },
+      {
+        name: 'player2',
+        startX: 624,
+        startY: 624,
+        up: 38,    //keyCode: ig.KEY.UP_ARROW
+        down: 40,  //keyCode: ig.KEY.DOWN_ARROW
+        left: 37,  //keyCode: ig.KEY.LEFT_ARROW
+        right: 39, //keyCode: ig.KEY.RIGHT_ARROW
+        bomb: 190, //keyCode: ig.KEY.PERIOD
+        facing: 'left',
+        hudX: 660,
+        hudY: 5
+      }
+
+    ],
+
+    gameplay: {
+      killTimer: 0.5,
+      timer: 30,
+      wallCount: 60,
+      roundTime: 18060, //5 (minutes) * 60 (seconds) * 60(ideal fps) + 60(extra second)
+      maxVel: 300,
+      bombCount: 1,
+      bombRange: 2,
+      explosionDuration: 15,
+      fuse: 100
+
+    }
+  }
+
+script(type='text/javascript', src='lib/impact/impact.js')
+script(type='text/javascript', src='lib/game/main.js')
+
+#instructions
+  #player-one
+    .text Player one controls:
+    .up.key
+    .left.key
+    .down.key
+    .right.key
+    .bomb.key
+    .bomb-description - Bomb
+  #player-two
+    .text Player two controls
+    .up.key
+    .left.key
+    .down.key
+    .right.key
+    .bomb.key
+    .bomb-description - Bomb
+canvas#canvas

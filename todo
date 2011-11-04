@@ -1,0 +1,35 @@
+TECH DEBT
+* fixmes
+* refactor bomb explosions
+* cleanup types and checkAgainst
+* increase fuse time for bombs
+
+RELEASE ONE (must have)
+* change default fonts to game font
+* game scoring (5 rounds) - game win/game loss
+* HUD (bomb count, bomb range)
+* fix color for draw out of time to be the same
+
+RELEASE ONE (good to have)
+* bad modifiers
+
+OTHER RELEASES
+* transparent pop up message animation "FIGHT", "KILL 'EM ALL" etc at round starts
+* transparent pop up message animation "Time is almost up", "Hurry up" etc when round time is almost over
+* Character death animation
+* good modifier death animation
+* random messages on wins
+* different maps
+* humor
+* sounds
+* music
+* enemies (a couple of types)
+* timer - part of HUD (pretty one)
+* credits
+* options menu
+* more than two players
+
+BIG RELEASE
+* single player
+* intro
+* multiplayer via sockets/pub/sub

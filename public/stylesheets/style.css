@@ -1,0 +1,77 @@
+html,body {
+  background-color: #000;
+  color: #fff;
+	font-family: helvetica, arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	font-size: 18pt;
+}
+#instructions {
+  float: left;
+  width: 400px;
+}
+.text {
+  clear: both;
+  margin-left: 50px;
+}
+.bomb-description {
+  float: left;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+.key {
+  width: 100px;
+  height: 100px;
+  float: left;
+  display: inline-block;
+}
+#player-two .up {
+  clear: right;
+  margin-left: 100px;
+  background-image: url('/media/up.png');
+}
+#player-two .left {
+  clear: left;
+  background-image: url('/media/left.png');
+}
+#player-two .down {
+  background-image: url('/media/down.png');
+}
+#player-two .right {
+  background-image: url('/media/right.png');
+}
+#player-two .bomb {
+  clear: left;
+  margin-left: 100px;
+  background-image: url('/media/period.png');
+}
+#player-one {
+  clear: left;
+}
+#player-one .up {
+  clear: right;
+  margin-left: 100px;
+  background-image: url('/media/w.png');
+}
+#player-one .left {
+  clear: left;
+  background-image: url('/media/a.png');
+}
+#player-one .down {
+  background-image: url('/media/s.png');
+}
+#player-one .right {
+  background-image: url('/media/d.png');
+}
+#player-one .bomb {
+  clear: left;
+  margin-left: 100px;
+  background-image: url('/media/tab.png');
+}
+
+
+#canvas {
+  float: left;
+	margin: auto;
+	border: 1px solid #555;
+}

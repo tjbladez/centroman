@@ -1,0 +1,12 @@
+{
+    "name": "CentroMan"
+  , "description": "Bomber game written in javascript"
+  , "author": "Nickolay Schwarz <tjbladez@gmail.com>"
+  , "keywords": ["impactjs", "game", "multiplayer"]
+  , "version": "0.1.0"
+  , "private": true
+  , "dependencies": {
+      "express": "2.4.2"
+    , "jade": ">= 0.0.1"
+  }
+}
