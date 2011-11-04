@@ -18,6 +18,9 @@ Only 2 player multiplayer is implemented at the moment.
 
 Impact.js game engine [http://impactjs.com/](http://impactjs.com/).
 
+**Important!** For licensing reasons I cannot include Impact.js code, however
+if you already have a license you can just drop the code in impact default location (public/lib/impact)
+
 
 ## Copyright ##
 
